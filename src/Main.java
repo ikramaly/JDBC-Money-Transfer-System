@@ -8,6 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("--------------MONEY TRANSFER SYSTEM-----------------");
         try (Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD)) {
             connection.setAutoCommit(false);
             while (true){
